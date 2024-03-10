@@ -1,0 +1,20 @@
+version: "0.0.1"
+targets:
+  - esp32s3
+
+dependencies:
+  idf:
+    version: ">=5.0.0"
+
+  esp_lvgl_port:
+    public: true
+    version: "^1"
+
+  esp_lcd_touch_ft5x06:
+    public: true
+    version: "^1"
+
+  esp_codec_dev:
+    public: true
+    version: ^1
+
